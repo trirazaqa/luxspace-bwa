@@ -1,0 +1,25 @@
+{
+  "name": "luxspace-bwa",
+  "version": "1.0.0",
+  "description": "Full-Stack Web Designer: Handoff Dan Front-End",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i src/css/input.css -o dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnrzqa/luxspace-bwa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnrzqa/luxspace-bwa/issues"
+  },
+  "homepage": "https://github.com/mnrzqa/luxspace-bwa#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3"
+  }
+}
